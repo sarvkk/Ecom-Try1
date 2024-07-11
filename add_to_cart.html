@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Kurchi</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="./style.css">
+      <link rel="stylesheet" href="cart.css">
+      <link rel="stylesheet" href="global.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <script src="https://unpkg.com/lucide@latest"></script>
+      <script src="script.js"></script>
+      <!------ Google Fonts ------>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Karla:wght@200;300;400;500&family=Montserrat+Alternates:ital,wght@0,300;0,400;1,300;1,400&family=Montserrat:wght@300;400;500&family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+      <!-- Bootstrap CSS-->	
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <!--External JS-->
+      <script src="script.js" async></script>
+      <!----External CSS----->
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <!-----FontAwsome------>
+      <script src="https://kit.fontawesome.com/9d9796826b.js" crossorigin="anonymous"></script>
+   <body>
+      <!---- Bootstrap Script---->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      <style> a{
+         text-decoration: none;
+         } 
+      </style>
+      </head>
+      <body>
+         <div class="nav-bar">
+            <div class="nav-left">
+               <button class="menu-toggle" aria-label="Toggle Menu">
+               <span class="menu-icon"></span>
+               </button>
+               <div class="nav-img">
+                  <a href=""><img src="content/bannur2.jpg" alt="logo"></a>
+               </div>
+               <ul class="nav-links">
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="">Inspiration</a></li>
+                  <li><a href="">Magazine</a></li>
+                  <li><a href="">Kurchi Campus</a></li>
+                  <li><a href="">Professionals</a></li>
+               </ul>
+            </div>
+            <div class="nav-right">
+               <div class="above-nav">
+                  <a  style="padding-right: 0.9rem;" class="material_right" href=""><i class="fa-solid fa-location-dot"></i> FindKurchi</a>
+                  <a class="material_right" href="">Contact</a>
+               </div>
+               <div class="below-nav">
+                  <a class="material_right" href=""><i data-lucide="search"></i></a>
+                  <a class="material_right" href=""><i data-lucide="user-round"></i></a>
+                  <a class="material_right" href=""><i data-lucide="shopping-cart"></i></a>
+               </div>
+               </ul>
+            </div>
+         </div>
+         <!-- <section class="container content-section" id="shopping-cart">
+            <h3 style="text-decoration: underline;text-align: center; margin-bottom: 7%;">Shopping Cart</h3>
+            
+            <table class="table table-hover table-cart">
+            <thead>
+              <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+              </tr>
+            </thead>
+            <tbody class="cart-items">
+             
+              
+            </tbody>
+            
+            </table>
+            <div class="itemsss">
+            <h1 id="item-name">Eames Plastic Side Chair RE DSR</h1>
+            <h1 id="item-price"></h1>
+            <select name="" id=""><option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            </select> 
+            </div>     
+            <div class="cart-total"> 
+                <strong class="cart-total-title">Total</strong>
+                <span  class="cart-total-price" style="text-align: right;">$0</span>
+              </div>
+            
+            
+              <div class="btn-purchase">
+                <button type="button"  class="btn btn-dark btn-purchase "><i class="fa-solid fa-cart-shopping " style="margin-right: 6%;"></i>PURCHASE</button>
+              </div>
+             </section> -->
+<!--       
+             <section class="container content-section">
+               <h2 class="section-header">CART</h2>
+               <div class="cart-row">
+                   <span class="cart-item cart-header cart-column">ITEM</span>
+                   <span class="cart-price cart-header cart-column">PRICE</span>
+                   <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+               </div>
+               <div class="cart-items">
+               </div>
+               <div class="cart-total">
+                   <strong class="cart-total-title">Total</strong>
+                   <span class="cart-total-price">$0</span>
+               </div>
+               <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+           </section> -->
+
+           <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>REMOVE</td>
+                        <td>IMAGE</td>
+                        <td>PRODUCT</td>
+                        <td>PRICE</td>
+                        <td>QUANTITY</td>
+                        <td>SUBTOTAL</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr id="item1">
+                        <td><a href=""> <i class="far fa-times-circle close-icon"></i></a></td>
+                        <td><img src="assets/pcard1.jpg" alt=""></td>
+                        <td>Eames Plastic Side Chair RE DSR</td>
+                        <td class="per">Rs.30099</td>
+                        <td><input type="number" value="1"></td>
+                        <td class="total">Rs.30099</td>
+                        
+                    </tr>
+                    <tr id="item2">
+                        <td><a href=""> <i class="far fa-times-circle close-icon"></i></a></td>
+                        <td><img src="assets/pcard2.jpg" alt=""></td>
+                        <td>Anchor Bracelet</td>
+                        <td class="per">Rs.4000</td>
+                        <td><input type="number" value="1"></td>
+                        <td class="total">Rs.4000</td>
+                        
+                    </tr>
+                    <tr id="item3">
+                        <td><a href=""> <i class="far fa-times-circle close-icon"></i></a></td>
+                        <td><img src="assets/78107323.jpg" alt=""></td>
+                        <td>Lounge Chair & Ottoman</td>
+                        <td class="per">Rs.10099</td>
+                        <td><input type="number" value="1"></td>
+                        <td class="total">Rs.10099</td>
+                        
+                    </tr> 
+                </tbody>
+               </table> 
+               </section> 
+
+               <section id="cart-add" class="section-p1" style=" margin-left: 10%;margin-right: 10%; display:flex; align-items:  center;">
+                  <div id="coupon">
+                      <h3>Apply Coupon</h3>
+                      <div>
+                          <input type="text" placeholder="Enter Your Coupon">
+                          <button class="normal">Apply</button>
+                      </div>
+          
+                  </div>
+                  <div id="subtotal">
+                      <h3>Cart Totals</h3>
+                      <table>
+                          <tr>
+                              <td >Cart Subtotal</td>
+                              <td class="ftotal">Rs.11998</td>
+                          </tr>
+                          <tr>
+                              <td>Shipping</td>
+                              <td>Free</td>
+                          </tr>
+                          <tr>
+                              <td><strong>Total</strong></td>
+                              <td class="ftotal"><Strong>$11998</Strong></td>
+                          </tr>
+                      </table>
+                      
+                      <div class="checkout-details">
+                        <div class="checkout-logos">
+                          <p>Select your payment method</p>
+                          <label for="esewa">
+                            <a href=""><img src="assets/esewa-logo.webp" alt=""></a>
+                            <button id="esewa" style="background-color: darkgray;color: black;">QR Code</button>
+                          </label>
+                         <div class="qrcode">
+                           <img src="assets/qrcode.jpg" alt="">
+                         </div>
+                        </div>
+                        <button class="normal" ><a style="text-decoration: none; color: white;" href="https://rc-epay.esewa.com.np/api/epay/main/v2/form">Proceed to checkout</a></button>
+                        <!-- <a href="https://rc-epay.esewa.com.np/api/epay/main/v2/form"><button>Checkout</button></a> -->
+                      </div>
+          
+                     </div>
+              </section>
+
+         <footer>
+            <div class="newsletter">
+               <div class="nl-left">
+                  <ul>
+                     <li>
+                        <h2>Kurchi Newsletter</h2>
+                        <p>New products, limited editions, event invitations and much more.</p>
+                     </li>
+                  </ul>
+               </div>
+               <div class="nl-right">
+                  <ul>
+                     <li>
+                        <a href="#">
+                           <div class="sort">
+                              <p>
+                                 Private Customers 
+                              </p>
+                              <i class="fa-solid fa-circle-info"></i>
+                           </div>
+                        </a>
+                     </li>
+                     <li>
+                        <a href="#">
+                           <div class="sort">
+                              <p>
+                                 Business Customers 
+                              </p>
+                              <i class="fa-solid fa-circle-info"></i>
+                           </div>
+                        </a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <div class="main_foot">
+               <div class="footer">
+                  <ul>
+                     <li>
+                        <h3>Products</h3>
+                     </li>
+                     <li><a href=""> All Products</a></li>
+                     <li><a href="">New Products</a></li>
+                     <li><a href="">Bestseller</a></li>
+                     <li><a href="">Designer</a></li>
+                     <li><a href="">Spare Parts</a></li>
+                     <li><a href="">Manufacturer warranty</a></li>
+                     <li><a href="">Color and Material</a></li>
+                     <li>
+                        <h3>
+                           Professionals
+                        </h3>
+                     </li>
+                     <li><a href="">Downloads</a></li>
+                     <li><a href="">Projects</a></li>
+                     <li><a href="">Our Clients</a></li>
+                     <li><a href="">Tools</a></li>
+                  </ul>
+               </div>
+               <div class="footer">
+                  <ul>
+                     <li>
+                        <h3>About Kurchi</h3>
+                     </li>
+                     <li><a href="">Facts</a></li>
+                     <li><a href="">Kurchi Campus</a></li>
+                     <li><a href="">Magazine</a></li>
+                     <li><a href="">Jobs and Careers</a></li>
+                     <li><a href="">Press</a></li>
+                     <li>
+                        <h3>Legal</h3>
+                     </li>
+                     <li><a href="">Distribution rights</a></li>
+                     <li><a href="">Imprint</a></li>
+                     <li><a href="">Privacy Policy</a></li>
+                  </ul>
+               </div>
+               <div class="footer">
+                  <ul>
+                     <li>
+                        <a href=""></a>
+                        <h3>Contact</h3>
+                     </li>
+                     <li><a href="">Contact Kurchi</a></li>
+                     <li><a href="">Find Kurchi</a></li>
+                     <li><a href="">Kurchi Companies</a></li>
+                     <li><a href="">Subscribe to the newsletter</a></li>
+                     <li><a href="">Kurchi Circle Radius</a></li>
+                     <li>
+                        <h3>
+                           Online Shop
+                        </h3>
+                     </li>
+                     <li><a href="">
+                        Shopping cart</a>
+                     </li>
+                     <li><a href="">Wish List     </a>  </li>
+                     <li><a href="">Payment Method</a></li>
+                     <li><a href="">Shipping Conditions</a></li>
+                     <li><a href="">General term and Conditions</a></li>
+                  </ul>
+               </div>
+            </div>
+            <div class="socials">
+               <a href=""> <i class="fa-brands fa-youtube"></i></a> 
+               <a href="">  <i class="fa-solid fa-x"></i></a> 
+               <a href="">  <i class="fa-brands fa-facebook"></i></a> 
+               <a href="">  <i class="fa-brands fa-pinterest"></i> </a> 
+               <a href="">  <i class="fa-brands fa-instagram"></i></a> 
+               <a href="">  <i class="fa-brands fa-linkedin"></i></a> 
+            </div>
+            <div class="socials_bottom">
+               <p>Copyright &copy;2024 <span class="designer_name"> All Rights Reserved</span></p>
+            </div>
+         </footer>
+         <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/js/bootstrap.bundle.min.js"></script>
+         <script src="papp.js"></script>
+         <script>
+            lucide.createIcons();
+            
+            document.getElementById('esewa').addEventListener('click', function() {
+    var qrcode = document.querySelector('.qrcode');
+    if (qrcode.style.display === 'none') {
+      qrcode.style.display = 'block';
+    } else {
+      qrcode.style.display = 'none';
+    }
+  });
+
+            document.addEventListener("DOMContentLoaded", function() {
+            // Get the "Add to Cart" button
+            var addToCartBtn = document.querySelector('.add-to-cart-btn');
+            
+            // Add click event listener to the button
+            addToCartBtn.addEventListener('click', function() {
+                // Alert a message when the button is clicked
+                alert('Product added to cart!');
+            });
+            });
+            const products = [
+              {
+                id: 1,
+                name: "Eames Plastic Side Chair RE DSR",
+                img: "./assets/pcard1.jpg",
+                price: 250,
+              },
+              {
+                id: 2,
+                name: "Anchor Bracelet",
+                img: "./assets/pcard2.jpg",
+                price: 320,
+              },
+              {
+                id: 3,
+                name: "Lounge Chair & Ottoman",
+                img: "./assets/pcard3.jpg",
+                price: 290,
+              },
+              {
+                id: 4,
+                name: "ACX Mesh",
+                img: "./assets/pcard4.jpg",
+                price: 370,
+              },];
+         </script>
+   </body>
+</html>

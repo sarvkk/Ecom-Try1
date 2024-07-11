@@ -1,0 +1,135 @@
+.wrapper{
+    display: flex;
+    height: 622.57px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 30px;
+    flex-direction: row;
+  
+}
+
+.imagecontainer img{
+width: 796.67px;
+align-items: center ;
+margin-left: 85px;
+/* margin-top: 100px; */
+margin-bottom: 100px;    
+transition: transform 0.3s ease;
+}
+
+.imagecontainer img:hover{
+     /* Adjust the scale factor as needed */
+}
+.detailscontainer{
+    padding-left: 25px;
+    padding-right: 85px;
+}
+.detailscontainerh1{
+    font-weight: 450;
+    font-size: 45px;
+opacity: 0.9;
+}
+.detailscontainerh1under{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    opacity: .6;
+}
+.detailscontainerh2text{
+    margin-top: 20px ;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+opacity: 0.9;
+    
+}
+.buyoption{
+display: flex;
+flex-direction: row;
+
+}
+.buyoption h1{
+    height: 40px;
+margin-top: 1.7rem;
+margin-right: 3rem;
+font-weight: 200;
+}
+
+.add-to-cart{
+    margin-top: 30px;
+    width: 190px;
+    height: 40px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+   padding: 0.5rem; 
+   color: white;
+   background-color: rgb(18, 18, 18);
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+ 
+}
+
+.add-to-cart:hover, .add-to-cart:focus .add-to-cart:active{
+    color: white;
+    background-color:  rgb(37, 37, 37);
+}
+.pwrapped{
+    width: 1200px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+.recycled{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.recycled .h{
+    font-weight: 300;
+    margin-bottom: 30px;
+
+}
+.recycled .e{
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+.nav-bar .nav-left ul li{
+    margin-top: 25px;
+
+}
+.increment1{
+    position: relative ;
+    top: 10%;
+    right: 20%;
+}
+.ProductDescp
+{
+    margin: 80px 0px;
+}
+.ProductDescp .ProductContent
+{
+    display: grid; 
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 50px;
+}
+.ProductDescp .ProductContent .imgcontainer
+{
+    height: 100%;
+    width: 100%;
+}
+.ProductDescp .ProductContent .imgcontainer img{
+    height: 100%;
+    width: 100%;
+}
+.ProductDescp .ProductContent .textcontainer
+{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+

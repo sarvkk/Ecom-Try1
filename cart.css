@@ -1,0 +1,291 @@
+/* .carth1{
+    text-align: center;
+    width: 100%;
+}
+
+.btn-purchase{
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    width: 50%;
+  }
+ 
+  #shopping-cart{
+    padding: 5% 5%;
+  }
+ 
+  .cart-total{
+    text-align: right;
+    font-size: 1.3rem;
+  }
+footer{
+  margin-top: 325px;
+}
+body {
+	font-family: Arial;
+	color: #211a1a;
+	font-size: 0.9em;
+}
+
+.text-right {
+	text-align: right;
+}
+
+#shopping-cart {
+	margin: 40px;
+}
+
+#product-grid {
+	margin: 40px;
+}
+
+#shopping-cart table {
+	width: 100%;
+	background-color: #F0F0F0;
+}
+
+#shopping-cart table td {
+	background-color: #FFFFFF;
+}
+
+.txt-heading {
+	color: #211a1a;
+	border-bottom: 1px solid #E0E0E0;
+	overflow: auto;
+}
+
+#btnEmpty {
+	background-color: #ffffff;
+	border: #d00000 1px solid;
+	padding: 5px 10px;
+	color: #d00000;
+	float: right;
+	text-decoration: none;
+	border-radius: 3px;
+	margin: 10px 0px;
+	cursor: pointer;
+}
+
+.add-to-cart {
+    padding: 5px 10px;
+    margin-left: 5px;
+    background-color: #efefef;
+    border: #E0E0E0 1px solid;
+    color: #211a1a;
+    text-decoration: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#product-grid .txt-heading {
+	margin-bottom: 18px;
+}
+
+.product-item {
+	float: left;
+	background: #ffffff;
+	margin: 30px 30px 0px 0px;
+	border: #E0E0E0 1px solid;
+	padding: 10px 10px 20px 10px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.product-image {
+	height: 155px;
+	width: 250px;
+	background-color: #FFF;
+}
+
+.clear-float {
+	clear: both;
+}
+
+.demo-input-box {
+	border-radius: 2px;
+	border: #CCC 1px solid;
+	padding: 2px 1px;
+}
+
+.tbl-cart {
+	font-size: 0.9em;
+}
+
+.tbl-cart th {
+	font-weight: normal;
+}
+
+.product-title {
+	margin-bottom: 20px;
+}
+
+.product-price {
+	float:left;
+}
+
+.product-quantity {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: #E0E0E0 1px solid;
+}
+
+.product-tile-footer {
+    padding: 15px 15px 0px 15px;
+    overflow: auto;
+}
+
+.cart-item-image {
+	width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: #E0E0E0 1px solid;
+    padding: 5px;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.no-records {
+	text-align: center;
+	clear: both;
+	margin: 38px 0px;
+} */
+
+          
+            
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img{
+    width: 70px;
+}
+
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+
+}
+
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+
+}
+
+#cart table td:nth-child(3){
+    width: 200px;
+    text-align: center;
+
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cart table thead{
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+}
+
+#cart table thead td{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 18px 0;
+}
+
+#cart table tbody tr td{
+    padding-top: 15px;
+}
+
+#cart table tbody td{
+    font-size: 13px;
+}
+
+#cart-add{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+#coupon{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#coupon h3,
+#subtotal h3{
+    padding-bottom: 15px;
+}
+
+#coupon input{
+    padding: 10px 20px;
+    outline: none;
+    width: 60%;
+    margin-right: 10px;
+    border: 1px solid #e2e9e1;
+}
+
+#coupon button,
+#subtotal button{
+    background-color: #088178;
+    color: #fff;
+    padding: 12px 20px;
+}
+
+#subtotal{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #e2e9e1;
+    padding: 30px;
+}
+
+#subtotal table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#subtotal table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px ;
+}
+
+.checkout-logos p{
+    font-size: 2rem;
+  }
+  
+  .checkout-details img{
+    height: 90px;
+    width: auto;
+    aspect-ratio: 4/2;
+    margin-left: 14px;
+  }
+  
+  .checkout-details img:hover{
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .checkout-logos p {
+    margin-top: 2em;
+    margin-right: 7em;
+  }
+  .qrcode img {
+    width: 250px;
+    height: 250px;
+  }
